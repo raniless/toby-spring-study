@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="hello" class="springbook.learningtest.spring.ioc.bean.Hello">
+        <property name="name" value="Child" />
+        <!-- 이 설정파일에는 printer라는 이름의 빈이 존재하지 않는다. 이런 경우 부모 컨텍스트가 가진 빈의 설정에서 해당하는 이름을 가진 빈이 존재하는지 찾는다. -->
+        <property name="printer" ref="printer" />
+    </bean>
+</beans>
