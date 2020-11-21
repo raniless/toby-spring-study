@@ -11,9 +11,9 @@
 - [1.1.4 웹 애플리케이션의 IoC 컨테이너 구성](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section1/1.1.4.md)
 
 ### 1.2 IoC/DI를 위 빈 설정 메타정보 작성
-- [1.2.1 빈 설정 메타정보]()
-- [1.2.2 빈 등록 방법]()
-- [1.2.3 빈 의존관계 설정 방법]()
-- [1.2.4 프로퍼티 값 설정 방]()
-- [1.2.5 컨테이너가 자동등록하는 빈]()
+- [1.2.1 빈 설정 메타정보](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section2/1.2.1.md)
+- [1.2.2 빈 등록 방법](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section2/1.2.2.md)
+- [1.2.3 빈 의존관계 설정 방법](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section2/1.2.3.md)
+- [1.2.4 프로퍼티 값 설정 방법](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section2/1.2.4.md)
+- [1.2.5 컨테이너가 자동등록하는 빈](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section2/1.2.5.md)
 
