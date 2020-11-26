@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:util="http://www.springframework.org/schema/util"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context-3.0.xsd
+                            http://www.springframework.org/schema/util
+                            http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+    <context:annotation-config />
+
+    <context:property-placeholder location="classpath:database.properties" />
+
+    <bean id="helloProperty" class="springbook.learningtest.spring.ioc.property.HelloProperty" />
+
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="springbook.learningtest.spring.converter.MyTypeConverter"/>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="collectionProperty" class="springbook.learningtest.spring.ioc.property.CollectionProperty">
+        <property name="names">
+            <list>
+                <value>Spring</value>
+                <value>IoC</value>
+                <value>DI</value>
+            </list>
+        </property>
+        <property name="genders">
+            <set>
+                <value>Male</value>
+                <value>Female</value>
+            </set>
+        </property>
+        <property name="ages">
+            <map>
+                <entry key="Kim" value="30" />
+                <entry key="Lee" value="35" />
+                <entry key="Ahn" value="40" />
+            </map>
+        </property>
+        <property name="settings">
+            <props>
+                <prop key="username">Spring</prop>
+                <prop key="password">Book</prop>
+            </props>
+        </property>
+        <property name="nullName"><null /></property>
+    </bean>
+
+    <util:list id="names2">
+        <value>Spring</value>
+        <value>IoC</value>
+        <value>DI</value>
+    </util:list>
+
+    <util:set id="genders2">
+        <value>Male</value>
+        <value>Female</value>
+    </util:set>
+
+    <util:map id="ages2">
+        <entry key="Kim" value="30" />
+        <entry key="Lee" value="35" />
+        <entry key="Ahn" value="40" />
+    </util:map>
+
+    <util:properties id="settings2">
+        <prop key="username">Spring</prop>
+        <prop key="password">Book</prop>
+    </util:properties>
+
+    <util:properties id="dbprops" location="classpath:database.properties" />
+
+    <bean id="spelProperty" class="springbook.learningtest.spring.ioc.property.SpelProperty">
+        <property name="driverClass" value="#{dbprops['db.driverClass']}" />
+        <property name="url" value="#{dbprops['db.url']}" />
+        <property name="username" value="#{dbprops['db.username']}" />
+        <property name="password" value="#{dbprops['db.password']}" />
+    </bean>
+</beans>
