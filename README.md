@@ -17,3 +17,11 @@
 - [1.2.4 프로퍼티 값 설정 방법](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section2/1.2.4.md)
 - [1.2.5 컨테이너가 자동등록하는 빈](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section2/1.2.5.md)
 
+### 1.3 프로토타입과 스코프
+- [1.3.1 프로토타입 스코프](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section3/1.3.1.md)
+- [1.3.2 스코프](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section3/1.3.2.md)
+
+### 1.4 기타 빈 설정 메타정보
+- [1.4.1 빈이름](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section4/1.4.1.md)
+- [1.4.2 빈 생명주기 메소드](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section4/1.4.2.md)
+- [1.4.3 팩토리 빈과 팩토리 메소드](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section4/1.4.3.md)
