@@ -1,15 +1,16 @@
 package springbook.learningtest.spring.ioc.scope;
 
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Scope;
+import springbook.learningtest.spring.ioc.scope.config.ObjectFactoryConfig;
+import springbook.learningtest.spring.ioc.scope.config.ServiceLocatorConfig;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class ScopeTest {
     @Test
@@ -26,14 +27,6 @@ public class ScopeTest {
         beans.add(ac.getBean(SingletonClientBean.class).bean1);
         beans.add(ac.getBean(SingletonClientBean.class).bean2);
         assertEquals(1, beans.size());
-    }
-
-    static class SingletonBean {}
-    static class SingletonClientBean {
-        @Autowired
-        SingletonBean bean1;
-        @Autowired
-        SingletonBean bean2;
     }
 
     @Test
@@ -54,12 +47,40 @@ public class ScopeTest {
         assertEquals(4, beans.size());
     }
 
-    @Scope("prototype")
-    static class PrototypeBean {}
-    static class PrototypeClientBean {
-        @Autowired
-        PrototypeBean bean1;
-        @Autowired
-        PrototypeBean bean2;
+    //Prototype 빈 DL 전략
+    @Test
+    public void objectFactoryTest() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(PrototypeBean.class, ObjectFactoryConfig.class);
+        ObjectFactory<PrototypeBean> beanFactory = ctx.getBean("prototypeBeanFactory", ObjectFactory.class);
+
+        Set<PrototypeBean> beans = new HashSet<>();
+        for(int i=1; i<=4; i++) {
+            beans.add(beanFactory.getObject());
+            assertEquals(i, beans.size());
+        }
+    }
+
+    //Prototype 빈 DL 전략
+    @Test
+    public void serviceLocatorFactoryBeanTest() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(PrototypeBean.class, ServiceLocatorConfig.class);
+        PrototypeBeanFactory beanFactory = ctx.getBean(PrototypeBeanFactory.class);
+        Set<PrototypeBean> beans = new HashSet<>();
+        for(int i=1; i<=4; i++) {
+            beans.add(beanFactory.getPrototypeBean());
+            assertEquals(i, beans.size());
+        }
+    }
+
+    //Prototype 빈 DL 전략
+    @Test
+    public void providerTest() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(PrototypeBean.class, ProviderClient.class);
+        ProviderClient providerClient = ctx.getBean(ProviderClient.class);
+        Set<PrototypeBean> beans = new HashSet<>();
+        for(int i=1; i<=4; i++) {
+            beans.add(providerClient.prototypeBeanProvider.get());
+            assertEquals(i, beans.size());
+        }
     }
 }
