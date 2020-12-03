@@ -25,3 +25,10 @@
 - [1.4.1 빈이름](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section4/1.4.1.md)
 - [1.4.2 빈 생명주기 메소드](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section4/1.4.2.md)
 - [1.4.3 팩토리 빈과 팩토리 메소드](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section4/1.4.3.md)
+
+### 1.5 스프링 3.1의 IOC 컨테이너와 DI
+- [1.5.1 빈의 역할과 구분](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section5/1.5.1.md)
+- [1.5.2 컨테이너 인프라 빈을 위한 자바 코드 메타정보](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section5/1.5.2.md)
+- [1.5.3 웹 애플리케이션의 새로운 IoC 컨테이너 구성](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section5/1.5.3.md)
+- [1.5.4 런타임 환경 추상화와 프로파일](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section5/1.5.4.md)
+- [1.5.5 프로퍼티 소스](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/ch1/part1/section5/1.5.5.md)
