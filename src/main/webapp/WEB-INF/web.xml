@@ -13,6 +13,14 @@
         <param-value>classpath:applicationContext.xml</param-value>
     </context-param>
 
+    <!-- Root Context Profile 설정(단순예시)  -->
+    <!--
+    <context-param>
+        <param-name>spring.profiles.active</param-name>
+        <param-value>dev, test</param-value>
+    </context-param>
+    -->
+
     <servlet>
         <servlet-name>spring</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -20,6 +28,13 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:*-servlet.xml</param-value>
         </init-param>
+        <!-- Servlet Context Profile 설정(단순예시) -->
+        <!--
+        <init-param>
+            <param-name>spring.profiles.active</param-name>
+            <param-value>dev, test</param-value>
+        </init-param>
+        -->
         <load-on-startup>1</load-on-startup>
     </servlet>
 

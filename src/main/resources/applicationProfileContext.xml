@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <!--
+     * Profile을 사용할 경우 공통으로 선언된 bean은 무조건 Profile 앞에 있어야 한다.
+     * 아니면 Error 발생!!! (Why??? 정확한 이유는 모르겠다)
+    -->
+    <bean id="printer" class="springbook.learningtest.spring.ioc.bean.StringPrinter" />
+
+    <beans profile="local">
+        <bean id="hello" class="springbook.learningtest.spring.ioc.bean.Hello">
+            <property name="name" value="Local Spring" />
+            <property name="printer" ref="printer" />
+        </bean>
+    </beans>
+
+    <beans profile="dev">
+        <bean id="hello" class="springbook.learningtest.spring.ioc.bean.Hello">
+            <property name="name" value="Dev Spring" />
+            <property name="printer" ref="printer" />
+        </bean>
+    </beans>
+
+    <beans profile="production">
+        <bean id="hello" class="springbook.learningtest.spring.ioc.bean.Hello">
+            <property name="name" value="Production Spring" />
+            <property name="printer" ref="printer" />
+        </bean>
+    </beans>
+</beans>
