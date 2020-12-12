@@ -35,11 +35,11 @@
 
 # 2장 데이터 액세스 기술
 ### 2.6 트랜잭션
-- [2.6.1 트랜잭션 추상화와 동기화](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.1.md)
-- [2.6.2 트랜잭션 경계설정 전략](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.2.md)
-- [2.6.3 트랜잭션 속성](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.3.md)
-- [2.6.4 데이터 액세스 기술 트랜잭션의 통합](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.4.md)
-- [2.6.5 JTA를 이용한 글로벌/분산 트랜잭션](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.5.md)
+- [2.6.1 트랜잭션 추상화와 동기화 - mhk](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.1.md)
+- [2.6.2 트랜잭션 경계설정 전략 - jmy](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.2.md)
+- [2.6.3 트랜잭션 속성 - khm](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.3.md)
+- [2.6.4 데이터 액세스 기술 트랜잭션의 통합 - khm](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.4.md)
+- [2.6.5 JTA를 이용한 글로벌/분산 트랜잭션 - mhk](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part6/2.6.5.md)
 
 ### 2.7 스프링 3.1의 데이터 액세스 기술
-- [2.7.3 @EnableTransactionManager](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part7/2.7.3.md)
+- [2.7.3 @EnableTransactionManager - mhk](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter2/part7/2.7.3.md)
