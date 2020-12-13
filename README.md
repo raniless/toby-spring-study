@@ -3,6 +3,8 @@
 - Member : Hyunmin Kim, Miyoung Jung, Hyoki Min
 - Start in 18.Nov
 
+---
+
 # 1장 IoC 컨테이너와 DI
 ### 1.1 IoC 컨테이너: 빈 팩토리와 애플리케이션 컨텍스트
 - [1.1.1 IoC 컨테이너를 이용해 애플리케이션 만들기](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter1/part1/1.1.1.md)
@@ -32,6 +34,8 @@
 - [1.5.3 웹 애플리케이션의 새로운 IoC 컨테이너 구성](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter1/part5/1.5.3.md)
 - [1.5.4 런타임 환경 추상화와 프로파일](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter1/part5/1.5.4.md)
 - [1.5.5 프로퍼티 소스](https://github.com/hmkim829/toby-spring-study/blob/main/wiki/chapter1/part5/1.5.5.md)
+
+---
 
 # 2장 데이터 액세스 기술
 ### 2.6 트랜잭션
