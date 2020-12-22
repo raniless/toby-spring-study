@@ -47,3 +47,10 @@
 
 ### 2.7 스프링 3.1의 데이터 액세스 기술
 - [2.7.3 @EnableTransactionManager](/wiki/chapter2/part7/2.7.3.md)
+
+---
+
+# 3장 스프링 웹 기술과 스프링 MVC
+### 3.1 스프링의 웹 프레젠테이션 계층 기술
+- [3.1.1 스프링에서 사용되는 웹 프레임워크의 종류](/wiki/chapter3/part1/3.1.1.md)
+- [3.1.2 스프링 MVC와 DispatcherServlet 전략](/wiki/chapter3/part1/3.1.2.md)
