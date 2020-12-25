@@ -10,7 +10,7 @@
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:applicationContext.xml</param-value>
+        <param-value>classpath*:/spring/context/context-*.xml</param-value>
     </context-param>
 
     <!-- Root Context Profile 설정(단순예시)  -->
@@ -26,7 +26,7 @@
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:*-servlet.xml</param-value>
+            <param-value>classpath*:/spring/servlet/*-servlet.xml</param-value>
         </init-param>
         <!-- Servlet Context Profile 설정(단순예시) -->
         <!--
@@ -37,7 +37,10 @@
         -->
         <load-on-startup>1</load-on-startup>
     </servlet>
-
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <url-pattern>/app/*</url-pattern>
+    </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>

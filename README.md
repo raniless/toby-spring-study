@@ -54,3 +54,7 @@
 ### 3.1 스프링의 웹 프레젠테이션 계층 기술
 - [3.1.1 스프링에서 사용되는 웹 프레임워크의 종류](/wiki/chapter3/part1/3.1.1.md)
 - [3.1.2 스프링 MVC와 DispatcherServlet 전략](/wiki/chapter3/part1/3.1.2.md)
+
+### 3.2 스프링 웹 애플리케이션 환경 구성
+- [3.2.1 간단한 스프링 웹 프로젝트 생성](/wiki/chapter3/part1/3.1.1.md)
+- [3.2.2 스프링 웹 학습 테스트](/wiki/chapter3/part1/3.1.2.md) 
