@@ -56,5 +56,11 @@
 - [3.1.2 스프링 MVC와 DispatcherServlet 전략](/wiki/chapter3/part1/3.1.2.md)
 
 ### 3.2 스프링 웹 애플리케이션 환경 구성
-- [3.2.1 간단한 스프링 웹 프로젝트 생성](/wiki/chapter3/part1/3.1.1.md)
-- [3.2.2 스프링 웹 학습 테스트](/wiki/chapter3/part1/3.1.2.md) 
+- [3.2.1 간단한 스프링 웹 프로젝트 생성](/wiki/chapter3/part2/3.2.1.md)
+- [3.2.2 스프링 웹 학습 테스트](/wiki/chapter3/part2/3.2.2.md)
+
+### 3.3 컨트롤러
+- [3.3.1 컨트롤러의 종류와 핸들러 어댑터](/wiki/chapter3/part3/3.3.1.md)
+- [3.3.2 핸들러 매핑](/wiki/chapter3/part3/3.3.2.md)
+- [3.3.3 핸들러 인터셉터](/wiki/chapter3/part3/3.3.3.md)
+- [3.3.4 컨트롤러 확장](/wiki/chapter3/part3/3.3.4.md)
