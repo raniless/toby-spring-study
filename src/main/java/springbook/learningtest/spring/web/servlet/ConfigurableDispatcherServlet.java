@@ -1,4 +1,4 @@
-package springbook.learningtest.spring.web;
+package springbook.learningtest.spring.web.servlet;
 
 import java.io.IOException;
 

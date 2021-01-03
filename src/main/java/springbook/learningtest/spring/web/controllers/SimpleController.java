@@ -1,4 +1,4 @@
-package springbook.learningtest.spring.web;
+package springbook.learningtest.spring.web.controllers;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;

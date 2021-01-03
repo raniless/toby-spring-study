@@ -1,4 +1,4 @@
-package springbook.learningtest.spring.web;
+package springbook.learningtest.spring.web.controllers;
 
 import java.util.Map;
 

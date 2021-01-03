@@ -3,7 +3,7 @@ package springbook.learningtest.spring.web.controllers;
 import org.junit.Test;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.handler.SimpleServletHandlerAdapter;
-import springbook.learningtest.spring.web.AbstractDispatcherServletTest;
+import springbook.learningtest.spring.web.servlet.AbstractDispatcherServletTest;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

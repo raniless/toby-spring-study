@@ -19,7 +19,7 @@
     <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
         <property name="converters">
             <set>
-                <bean class="springbook.learningtest.spring.converter.MyTypeConverter"/>
+                <bean class="springbook.learningtest.spring.ioc.converter.MyTypeConverter"/>
             </set>
         </property>
     </bean>

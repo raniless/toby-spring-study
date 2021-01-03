@@ -1,15 +1,9 @@
 package springbook.learningtest.spring.web.controllers;
 
 import org.junit.Test;
-import org.springframework.stereotype.Component;
-import org.springframework.web.servlet.handler.SimpleServletHandlerAdapter;
-import springbook.learningtest.spring.web.AbstractDispatcherServletTest;
-import springbook.learningtest.spring.web.AnnotationHelloController;
+import springbook.learningtest.spring.web.servlet.AbstractDispatcherServletTest;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;

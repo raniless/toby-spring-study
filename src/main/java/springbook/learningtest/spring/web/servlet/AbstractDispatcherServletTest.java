@@ -1,4 +1,4 @@
-package springbook.learningtest.spring.web;
+package springbook.learningtest.spring.web.servlet;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;

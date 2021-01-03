@@ -1,7 +1,6 @@
 package springbook.learningtest.spring.web.controllers;
 
 import org.junit.Test;
-import springbook.learningtest.spring.web.SimpleHelloController;
 
 import java.util.HashMap;
 import java.util.Map;

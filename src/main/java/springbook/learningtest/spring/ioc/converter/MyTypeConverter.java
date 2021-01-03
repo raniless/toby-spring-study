@@ -1,4 +1,4 @@
-package springbook.learningtest.spring.converter;
+package springbook.learningtest.spring.ioc.converter;
 
 import org.springframework.core.convert.converter.Converter;
 import springbook.learningtest.spring.ioc.bean.Hello;
