@@ -9,5 +9,14 @@
                            http://www.springframework.org/schema/context/spring-context-4.3.xsd
                            http://www.springframework.org/schema/mvc
                            http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
+    <!-- Annotation 활성화 -->
+    <mvc:annotation-driven />
 
+    <!-- Component 패키지 지정 -->
+    <context:component-scan base-package="com" />
+
+    <!-- DispatcherServlet에서 static 파일처리 예외를 위한 설정 -->
+    <mvc:default-servlet-handler />
+
+    <bean id="helloPdfView" class="com.hello.view.HelloPdfView" />
 </beans>
