@@ -19,4 +19,6 @@
     <mvc:default-servlet-handler />
 
     <bean id="helloPdfView" class="com.hello.view.HelloPdfView" />
+    <bean id="helloXlsView" class="com.hello.view.HelloXlsView" />
+    <bean id="helloXlsxView" class="com.hello.view.HelloXlsxView" />
 </beans>
