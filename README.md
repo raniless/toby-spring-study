@@ -67,4 +67,9 @@
 
 ### 3.4 뷰
 - [3.4.1 뷰](/wiki/chapter3/part4/3.4.1.md)
-- [3.4.1 뷰 리졸버](/wiki/chapter3/part4/3.4.2.md)
+- [3.4.2 뷰 리졸버](/wiki/chapter3/part4/3.4.2.md)
+
+### 3.5 기타 전략
+- [3.5.1 핸들러 예외 리졸버](/wiki/chapter3/part5/3.5.1.md)
+- [3.5.2 지역정보 리졸버](/wiki/chapter3/part5/3.5.2.md)
+- [3.5.3 멀티파트 리졸버](/wiki/chapter3/part5/3.5.2.md)
