@@ -29,3 +29,8 @@ hs_err_pid*
 
 # Dependencies Exception
 !**/WEB-INF/lib/*
+
+# Eclipse
+.settings
+.classpath
+.project
