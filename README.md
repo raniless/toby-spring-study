@@ -73,3 +73,7 @@
 - [3.5.1 핸들러 예외 리졸버](/wiki/chapter3/part5/3.5.1.md)
 - [3.5.2 지역정보 리졸버](/wiki/chapter3/part5/3.5.2.md)
 - [3.5.3 멀티파트 리졸버](/wiki/chapter3/part5/3.5.3.md)
+
+### 3.6 스프링 3.1의 MVC
+- [3.6.1 플래시 맵 매니저 전략](/wiki/chapter3/part6/3.6.1.md)
+- [3.6.2 WebApplicationInitializer를 이용한 컨텍스트 등록](/wiki/chapter3/part6/3.6.2.md)
