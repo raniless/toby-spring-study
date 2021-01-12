@@ -25,7 +25,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(ModelMap model) {
         model.put("message", "Hello Spring!!!!!");
-        return "/WEB-INF/view/hello.jsp";
+        return "hello";
     }
 
     @RequestMapping("/register")
@@ -33,7 +33,7 @@ public class HelloController {
         User user = new User();
         user.setName("Hyoks");
         model.put("user", user);
-        return "/WEB-INF/view/register.jsp";
+        return "register";
     }
 
     @RequestMapping("/hellopdf")

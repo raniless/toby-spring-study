@@ -21,4 +21,9 @@
     <bean id="helloPdfView" class="com.hello.view.HelloPdfView" />
     <bean id="helloXlsView" class="com.hello.view.HelloXlsView" />
     <bean id="helloXlsxView" class="com.hello.view.HelloXlsxView" />
+    
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
 </beans>
