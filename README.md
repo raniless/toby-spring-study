@@ -77,3 +77,10 @@
 ### 3.6 스프링 3.1의 MVC
 - [3.6.1 플래시 맵 매니저 전략](/wiki/chapter3/part6/3.6.1.md)
 - [3.6.2 WebApplicationInitializer를 이용한 컨텍스트 등록](/wiki/chapter3/part6/3.6.2.md)
+
+---
+
+# 4장 스프링 @MVC
+### 4.1 @RequestMapping 핸들러 매핑
+- [4.1.1 클래스/메소드 결합 정보](/wiki/chapter4/part1/4.1.1.md)
+- [4.1.2 타입 상속과 매핑](/wiki/chapter4/part1/4.1.2.md)
