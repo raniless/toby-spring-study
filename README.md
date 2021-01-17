@@ -84,3 +84,8 @@
 ### 4.1 @RequestMapping 핸들러 매핑
 - [4.1.1 클래스/메소드 결합 정보](/wiki/chapter4/part1/4.1.1.md)
 - [4.1.2 타입 상속과 매핑](/wiki/chapter4/part1/4.1.2.md)
+
+### 4.2 @Controller
+- [4.2.1 메소드 파라미터의 종류](/wiki/chapter4/part2/4.2.1.md)
+- [4.2.2 리턴 타입의 종류](/wiki/chapter4/part2/4.2.2.md)
+- [4.2.3 @SessionAttributes와 SessionStatus](/wiki/chapter4/part2/4.2.3.md)
