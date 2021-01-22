@@ -89,3 +89,10 @@
 - [4.2.1 메소드 파라미터의 종류](/wiki/chapter4/part2/4.2.1.md)
 - [4.2.2 리턴 타입의 종류](/wiki/chapter4/part2/4.2.2.md)
 - [4.2.3 @SessionAttributes와 SessionStatus](/wiki/chapter4/part2/4.2.3.md)
+
+### 4.3 모델 바인딩과 검증
+- [4.3.1 PropertyEditor](/wiki/chapter4/part3/4.3.1.md)
+- [4.3.2 Converter와 Formatter](/wiki/chapter4/part3/4.3.2.md)
+- [4.3.3 WebDataBinder 설정 항목](/wiki/chapter4/part3/4.3.3.md)
+- [4.3.4 Validator와 BindingResult, Errors](/wiki/chapter4/part3/4.3.4.md)
+- [4.3.5 모델의 일생](/wiki/chapter4/part3/4.3.5.md)
