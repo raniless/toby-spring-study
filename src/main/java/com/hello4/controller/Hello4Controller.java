@@ -3,12 +3,15 @@ package com.hello4.controller;
 import com.hello.entity.UserSearch;
 import com.hello4.entity.Member;
 import com.hello4.propertyeditor.MinMaxPropertyEditor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import springbook.learningtest.spring.user.domain.Level;
+
+import javax.inject.Provider;
+import java.util.List;
 
 @Controller
 @RequestMapping("/hello4")
@@ -22,6 +25,12 @@ public class Hello4Controller {
     @ResponseBody
     public String add(@ModelAttribute Member member) {
         return "id : " + member.getId() + ", age : " + member.getAge();
+    }
+
+    @RequestMapping("/userSearch2")
+    @ResponseBody
+    public String getUserLevel(@RequestParam Level level) {
+        return level.toString();
     }
 
     @InitBinder

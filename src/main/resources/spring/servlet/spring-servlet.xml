@@ -35,4 +35,15 @@
         </property>
         <property name="defaultErrorView" value="error/default" />
     </bean>
+
+    <!--
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.hello4.converter.LevelToStringConverter" />
+                <bean class="com.hello4.converter.StringToLevelConverter" />
+            </set>
+        </property>
+    </bean>
+    -->
 </beans>
