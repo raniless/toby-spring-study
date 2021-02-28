@@ -104,3 +104,6 @@
 
 ### 4.5 메시지 컨버터와 AJAX
 - [4.5.1 메시지 컨버터의 종류](/wiki/chapter4/part5/4.5.1.md)
+
+### 4.6 MVC 네임스페이스
+- [4.6 MVC 네임스페이스](/wiki/chapter4/part6/4.6.md)
