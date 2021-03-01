@@ -107,3 +107,6 @@
 
 ### 4.6 MVC 네임스페이스
 - [4.6 MVC 네임스페이스](/wiki/chapter4/part6/4.6.md)
+
+### 4.7 @MVC 확장 포인트
+- [4.7.1 AnnotationMethodHandlerAdapter](/wiki/chapter4/part7/4.7.1.md)
