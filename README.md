@@ -114,3 +114,9 @@
 ### 4.8 URL과 리소스 관리
 - [4.8.1 \<mvc:default-servlet-handler/>를 이용한 URL 관리](/wiki/chapter4/part8/4.8.1.md)
 - [4.8.2 \<url:resource/>를 이용한 리소스 관리](/wiki/chapter4/part8/4.8.2.md)
+
+### 4.9 스프링 3.1의 @MVC
+- [4.9.1 새로운 RequestMapping 전략](/wiki/chapter4/part9/4.9.1.md)
+- [4.9.2 @RequestMapping 핸들러 매핑: RequestMappingHandlerMapping](/wiki/chapter4/part9/4.9.2.md)
+- [4.9.3 @RequestMapping 핸들러 어댑터](/wiki/chapter4/part9/4.9.3.md)
+- [4.9.4 @EnableWebMvc와 WebMvcConfigurationSupport를 이용한 @MVC 설정](/wiki/chapter4/part9/4.9.4.md)
